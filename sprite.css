@@ -1,0 +1,41 @@
+/* 기본 설정 */
+.character .c {
+    display: inline-block;
+    width: 424px;
+    height: 523px;
+    border: 1px solid red;
+    background: url('/img/img_sprite.png') no-repeat;
+}
+
+/* 위치 조절*/
+.character .c1 {
+    background-position: -0px -35px;
+}
+
+.character .c2 {
+    background-position: -956px -35px;
+}
+
+.character .c3 {
+    background-position: -479px -35px;
+}
+
+.character .c4 {
+    background-position: -7px -625px;
+}
+
+.title {
+    margin-bottom: 30px;
+}
+
+.ori_txt {
+    cursor: pointer;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.ori_img {
+    display: block;
+    width: 150px;
+    height: 150px;
+}
